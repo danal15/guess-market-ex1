@@ -1,0 +1,16 @@
+# Build output
+/out/
+*.class
+*.jar
+
+# Saved game state files (bonus feature output)
+*.gmstate
+
+# IntelliJ user-specific files
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+
+# OS files
+Thumbs.db
+.DS_Store

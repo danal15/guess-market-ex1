@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Guess-Market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GM-EX1-schema.xsd">
+	<GM-events>
+		<GM-event name="Mujtaba is Dead">
+			<id>1</id>
+			<description>This event gambles if Mujtaba is a live or not. it will be determined if he will be shown in public until 31.8.26</description>
+			<comision type="on-purchase">5</comision>
+			<GM-options>
+				<GM-option>Hell Yea !</GM-option>
+				<GM-option>No way !</GM-option>
+			</GM-options>
+			<GM-method>
+				<GM-LMSR>
+					<b>100</b>
+				</GM-LMSR>
+			</GM-method>
+		</GM-event>
+		<GM-event name="World Cap Winner">
+			<id>2</id>
+			<description>Who do you think will win the world cap ?</description>
+			<comision type="on-close">15</comision>
+			<GM-options>
+				<GM-option>Argentina</GM-option>
+				<GM-option>Spain</GM-option>
+			</GM-options>
+			<GM-method>
+				<GM-LMSR>
+					<b>50</b>
+				</GM-LMSR>
+			</GM-method>
+		</GM-event>
+		<GM-event name="Earth Quake on Dead Sea">
+			<id>3</id>
+			<description>Will there be an earth quake on the dead sea until the December 31th 2026</description>
+			<comision type="on-purchase">50</comision>
+			<GM-options>
+				<GM-option>Yes</GM-option>
+				<GM-option>No</GM-option>
+			</GM-options>
+			<GM-method>
+				<GM-LMSR>
+					<b>400</b>
+				</GM-LMSR>
+			</GM-method>
+		</GM-event>
+	</GM-events>
+</Guess-Market>
